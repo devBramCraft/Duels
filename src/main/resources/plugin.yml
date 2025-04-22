@@ -1,0 +1,13 @@
+name: Duels
+version: '1.0-SNAPSHOT'
+main: bramcraft.net.duels.Duels
+api-version: '1.21'
+softdepend: [Bukkit, Spigot, Paper]
+description: A duels plugin for Minecraft
+authors: [bramCraft]
+website: https://bramcraft.net
+commands:
+  duels:
+    description: Main command for the Duels plugin
+    usage: /<command> <subcommand>
+    aliases: [duel, d]
