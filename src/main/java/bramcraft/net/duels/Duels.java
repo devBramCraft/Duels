@@ -17,6 +17,7 @@ public final class Duels extends JavaPlugin {
         getCommand("duel").setExecutor(new DuelCommand());
         getServer().getPluginManager().registerEvents(new GUIListener(), this);
 
+
     }
 
     @Override
